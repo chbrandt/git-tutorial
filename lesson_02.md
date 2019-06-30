@@ -87,4 +87,6 @@ $ git merge new_branch    # apply 'new_branch' state to 'master' branch
 
 * `git-tag`: manage repository tags (_aka_ "versions")
 ```
+$ git tag -a "First version" v1.0   # create a 'v1.0' (annotated) tag
+$ git tag                           # list repo tags
 ```
