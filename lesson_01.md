@@ -79,30 +79,12 @@ It is very common to use `git pull` instead of `git fetch` + `git merge`.
 
 `git checkout` is the command to manipulate modifications in the
 _working directory_. You will use `git checkout` whenever you want to change
-_branch_ (in a minute...) or throw out modifications done to a file (before
-_staging_ it).
+_branch_ or throw out modifications done to a file (before _staging_ it).
 
+- - -
+<sup>^</sup> A `master` branch by default is more of a convention, Git itself
+does not hardcode the existence of `master` but it is a default.
 
-
-
-<sup>*</sup>: To be very specific, _local_ and _remote_ repositories can exist
+<sup>*</sup> To be very specific, _local_ and _remote_ repositories can exist
 in the very same machine, Git doesn't really care where the repositories are or
 how they connect to each other.
-
-
-* structure of a repository
-  * local
-  * remote
-  * origin
-  * upstream
-  * stage
-  * HEAD
-  * branch
-
-* workflow
-  * clone / init
-  * add
-  * push
-  * fetch
-  * pull
-  * checkout

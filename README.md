@@ -12,3 +12,15 @@ will certainly add, push, fetch, pull, merge, branch, checkout the repo.
 
 
 # Roadmap
+
+* Presentation
+  * init a repository
+  * add a test script
+  * add a pre-commit hook
+  * commit & push to github
+
+* Hands-on
+  * clone the repository
+  * add content to be tested by script
+  * commit
+  * push
