@@ -30,16 +30,58 @@ giving you here some (just _some_) guidance to a better experience.
 
 ## Everyday commands
 
-* `git-init`
-* `git-clone`
-* `git-log`
-* `git checkout`
-* `git-branch`
-* `git-add`
-* `git-diff`
-* `git-status`
-* `git-commit`
-* `git-reset`
-* `git-merge`
-* `git-rebase`
-* `git-tag`
+* `git-init`: initialize a directory as a repository
+```
+$ cd new_project
+$ git init .
+```
+
+* `git-clone`: clone a remote repository
+```
+$ git clone <existing-project-url>
+```
+
+* `git-log`: show the history of a repository
+```
+$ git log
+```
+
+* `git-branch`: manage branches
+```
+$ git branch --all        # list all branches of repository
+$ git branch new_branch   # create branch 'new_branch'
+```
+
+* `git checkout`: revert or move working directory
+```
+$ git checkout new_branch           # go to 'master' branch
+$ git checkout -- modified-file     # revert modification from 'modified-file'
+```
+
+* `git-add`: add modifications to staging area
+```
+```
+
+* `git-diff`: compare differences between files/branches
+```
+```
+
+* `git-status`: show current state of the repository
+```
+```
+
+* `git-commit`: commit staged modifications
+```
+```
+
+* `git-reset`: reset staged modifications
+```
+```
+
+* `git-merge`: merge branches
+```
+```
+
+* `git-tag`: manage repository tags (_aka_ "versions")
+```
+```
