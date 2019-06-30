@@ -54,32 +54,35 @@ $ git branch new_branch   # create branch 'new_branch'
 
 * `git checkout`: revert or move working directory
 ```
-$ git checkout new_branch           # go to 'master' branch
-$ git checkout -- modified-file     # revert modification from 'modified-file'
+$ git checkout new_branch             # go to 'master' branch
+$ git checkout -- <modified-file>     # revert modification from <modified-file>
 ```
 
 * `git-add`: add modifications to staging area
 ```
+$ git add <modified-file>     # add modification to <modified-file> to index
+$ git add <new-file>          # add <new-file> to index (stagin area)
 ```
 
 * `git-diff`: compare differences between files/branches
 ```
+$ git diff master..new_branch   # show differences between master and new_branch
 ```
 
 * `git-status`: show current state of the repository
 ```
+$ git status    # show current repository's index/working directory status
 ```
 
 * `git-commit`: commit staged modifications
 ```
-```
-
-* `git-reset`: reset staged modifications
-```
+$ git commit -am "a message"    # apply _index_ modifications with "a message" message
 ```
 
 * `git-merge`: merge branches
 ```
+$ git checkout master     # say we're in 'new_branch', just go back to master
+$ git merge new_branch    # apply 'new_branch' state to 'master' branch
 ```
 
 * `git-tag`: manage repository tags (_aka_ "versions")
