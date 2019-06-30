@@ -1,13 +1,5 @@
 # Git basics
 
-* workflow
-  * clone / init
-  * add
-  * push
-  * fetch
-  * pull
-  * checkout
-
 A typical workflow in your repository goes like:
 1. `git pull` a fresh version from the remote repository;
 2. `git branch` a new branch to make your changes;
